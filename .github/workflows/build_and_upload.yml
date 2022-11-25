@@ -24,9 +24,12 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Build debug APK
-      run: bash ./gradlew assembleDebug --stacktrace
+      run: bash ./gradlew assembleRelease --stacktrace
+    - name: Rename APK
+      run: |
+        mv android/app/build/outputs/apk/release/app-release.apk ./HappyPlants.apk
     - name: Upload APK
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v1
       with:
-          name: happy_plants
-          path: app/build/outputs/apk/debug/happy_plants-debug.apk
+        name: HappyPlants.apk
+        path: ./HappyPlants.apk
