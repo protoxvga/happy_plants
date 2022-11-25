@@ -12,7 +12,7 @@
 <p align="center">
     Android Kotlin application helping you to take care of your plants<br>
     Application developed in my fourth year in Dublin for the mobile development module in GriffithCollege<br>
-    For the assignement, no external library has been use
+    App created for an assignement, external library use was prohibited
 </p>
 
 ## 📝 Table of Contents
