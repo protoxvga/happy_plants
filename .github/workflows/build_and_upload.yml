@@ -27,7 +27,7 @@ jobs:
       run: bash ./gradlew assembleRelease --stacktrace
     - name: Rename APK
       run: |
-        mv app/build/outputs/apk/release/app-release.apk ./HappyPlants.apk
+        mv app/build/outputs/apk/release/app-release-unsigned.apk ./HappyPlants.apk
     - name: Upload APK
       uses: actions/upload-artifact@v1
       with:
