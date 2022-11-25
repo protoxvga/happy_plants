@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="plant_types">
+        <item>Flowering</item>
+        <item>Colorful Foliage</item>
+        <item>Low-Light</item>
+        <item>Trailing</item>
+        <item>Small Houseplant</item>
+        <item>Large Houseplant</item>
+        <item>Succulents | Cacti</item>
+    </string-array>
+</resources>
